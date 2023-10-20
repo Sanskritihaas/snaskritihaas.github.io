@@ -1,0 +1,214 @@
+* {
+  margin: 0vw;
+  padding: 0vw; 
+}
+
+/* for mobile screens */
+@media only screen and (min-width: 280px) and (max-width: 750px) {
+  body{
+    background-image: url(Untitled\ design\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100vw;
+  }
+  header {
+    position: fixed;
+    top: 0%;
+    width: 100vw;
+    height: 5vw;
+    z-index: +2;
+  }
+
+  .navbar {
+    width: 100vw;
+    height: 20vw;
+    background-color: #43329a;
+    color: #ffd547;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+  }
+  .logo {
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffc400;
+  }
+  .logo:hover {
+    color: #ffdf74;
+  }
+  .logo img {
+    width: 15vw;
+    margin-right: 1vw;
+  }
+  .brand-name {
+    padding-left: 1vw;
+    font-size: 4vw;
+  }
+  .nav-links {
+    display: none;
+    visibility: hidden;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  .nav-links li {
+    margin: 0.5vw;
+  }
+  .small-screens {
+    position: relative;
+    visibility:hidden;
+    top: 0%;
+    height: 40vw;
+    width: 100%;
+  }
+  #list {
+    display: none;
+    background-color: #c0b3ffb7;
+    height: 40vw;
+    width: 100%;
+    z-index: 2;
+  }
+  #list a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 3.5vw;
+    padding-top: 2vw;
+    position: relative;
+    top: 2vw;
+    left: 5vw;
+    /* border-bottom: #ed748e 2px solid; */
+  }
+  main {
+    z-index: 1;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    height: 1vw;
+    font-size: 2vw;
+  }
+  .nav-links a:hover {
+    color: #ffd547;
+  }
+  .i {
+    font-size: 3vw;
+    font: bold;
+  }
+  .toggle {
+    visibility: visible;
+    display: block;
+    background-color: #43329a;
+    margin: 4vw;
+    border: 0px solid black;
+    height: 6vw;
+    width: 6vw;
+  }
+}
+/* for tablets and desktop screens */
+@media (min-width: 751px) {
+  body{
+    background-image: url(Untitled\ design\ \(3\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  header {
+    position: fixed;
+    z-index: +2;
+    top:0%;
+    width: 100%;
+    height: 12vh;
+  }
+  .navbar {
+    background-color: #43329a;
+    color: #ffd547;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 13vh;
+    width: 100%;
+    
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffc400;
+   
+  }
+
+  .logo:hover {
+    color: #ffdf74;
+    
+  }
+
+  .logo img {
+    display: flex;
+    align-items: center;
+    width: 5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    
+  }
+
+  .brand-name {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    font-size: 2vw;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    width: 40vw;
+    height: 10vh;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+  .nav-links li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0vw;
+
+    
+  }
+  .nav-links li:hover {
+    background-color: #40308f;
+    
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2vw;
+    height: 13vh;
+    width: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .nav-links a:hover {
+    color: #ffd547;
+    
+  }
+  #list {
+    display: none;
+   
+  }
+  .toggle {
+    visibility: hidden;
+    display: none;
+
+  }
+}

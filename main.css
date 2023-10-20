@@ -1,0 +1,76 @@
+/* for small screens */
+@media only screen and (min-width: 280px) and (max-width: 750px) {
+  main {
+    position: relative;
+    top: 12vh;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #slideshow-container {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.462);
+  }
+  
+  #previous-button,
+  #next-button {
+    margin: 10px;
+    height: 90%;
+    width:10%;
+    color: rgba(128, 128, 128, 0.805);
+    background-color: rgba(218, 218, 218, 0);
+    font-size: 30px;
+    border: none;
+  }
+  #previous-button:hover,#next-button:hover{
+    color:#43329a8f;
+  }
+}
+
+/* for bigger screens */
+@media (min-width: 500px) {
+  main {
+    position:relative;
+    top: 90px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #slideshow-container {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.462);
+  }
+  
+  #previous-button,
+  #next-button {
+    margin: 10px;
+    height: 90%;
+    width:10%;
+    color: rgba(128, 128, 128, 0.805);
+    background-color: rgba(218, 218, 218, 0);
+    font-size: 30px;
+    border: none;
+  }
+  #previous-button:hover,#next-button:hover{
+    color:#43329a8f;
+  }
+  
+}
